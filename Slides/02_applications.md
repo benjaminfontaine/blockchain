@@ -4,10 +4,10 @@
 
 
 
-## Les crytos monnaies
+## Les cryptos monnaies
 
 <figure  style="display: block; margin: auto; width: 30%">
-    <img src="ressources/1000.jpeg" alt="1000 et plus"/>
+    <img src="ressources/600.png" alt="600 et plus"/>
 </figure>
 
 <figure style="display: block; float: left; margin: 30px 0; width: 20%">
@@ -31,8 +31,7 @@
 
 <div style="clear:left"></div>
 
-Namecoin : dns decentralisé
-2ème génération : Etherium, Monero et Nxt
+
 
 
 
@@ -48,9 +47,8 @@ Namecoin : dns decentralisé
     <img src="ressources/cash.gif" alt="cash"/>
 </figure>
 
-Pas de frais d'administration et d'infrastructure
-
-**Consentium R3**
+<!-- .element class="fragment" data-fragment-index="2" -->
+**Consentium R3 CEV**
 Les banques arriveront t-elles à canaliser cette technologie qui, par nature, les rends obsolêtes ?
 
 
@@ -58,12 +56,23 @@ Les banques arriveront t-elles à canaliser cette technologie qui, par nature, l
 
 ## Et plus encore
 
-<figure class="fragment" data-fragment-index="1"  style="display: block; margin: auto; width: 30%">
+<!-- .element class="fragment" data-fragment-index="1" -->
+**Notaires** :actes de proprièté, cadastre (ghana, honduras)...
+
+</br>
+<!-- .element class="fragment" data-fragment-index="2" -->
+**Etat** : Système de vote, diplômes...
+
+</br>
+<!-- .element class="fragment" data-fragment-index="3" -->
+**Uberisation de l'uberisation** : remplacement d'uber, de airbnb 
+
+</br>
+<figure class="fragment" data-fragment-index="4"  style="display: block; margin: auto; width: 30%">
     <img src="ressources/revolution.jpeg" alt="revolution"/>
 </figure>
-Notaires :actes de proprièté, cadastre
-Etat : Système de vote, monnaie cryto pour monnaie nationale...
 
-<div class="fragment" data-fragment-index="2" style="background-color: #EEEEEE; color: red; padding: 5px 20px; text-align:center">
+
+<div class="fragment" data-fragment-index="4" style="background-color: #EEEEEE; color: red; padding: 5px 20px; text-align:center">
     La Blockchain donnerait le pouvoir et le contrôle au peuple au lieu de le concentrer dans les mains des grands acteurs, états ou multinationales. 
 </div>
