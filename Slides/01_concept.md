@@ -8,6 +8,7 @@
 
 La blockchain est la technologie sous-jacente à la crypto-monnaie Bitcoin.
 
+<!-- .element class="fragment" data-fragment-index="1" -->
 Le Bitcoin a mauvaise réputation :
 
 <figure class="fragment" data-fragment-index="1" style="display: block; float: left; margin: 30px 0; width: 50%">
@@ -29,7 +30,7 @@ Le Bitcoin a mauvaise réputation :
 
 
 
-## Les problèmatiques adressées par la blockchain
+## Les problèmatiques solutionnées par la blockchain
 
 <figure class="fragment" data-fragment-index="1"  style="display: block; margin: auto; width: 30%">
     <img src="ressources/not_bitcoin.jpeg" alt="not-bitcoin"/>
@@ -107,7 +108,7 @@ Chaque block se connecte avec le précedent en intégrant le hash du block préc
 
 
 
-## Ordonnancement des transaction
+## Ordonnancement des transactions
 
 <!-- .element class="fragment" data-fragment-index="1" -->
 - Les mineurs choissisent une ou plusieurs transactions en attente 
@@ -148,4 +149,62 @@ Très dur de déterminer un hash : il faut des années de calcul à un ordinateu
 
 <div class="fragment" data-fragment-index="3" style="background-color: #EEEEEE; color: red; padding: 5px 20px; text-align:center">
   "L’expansion des chaînes de blocs est redoutable pour “le marché de la confiance”, qui comprend les institutions et bureaucraties centralisées comme les banques, les chambres de compensation et les autorités gouvernementales"
+</div>
+
+
+# Pourquoi c'est révolutionnaire ?
+
+<!-- .slide: class="page-title" -->
+
+
+
+## Tiers de confiance décentralisé
+
+
+
+## Des changements sur un large spectre
+
+
+
+
+## Les banques
+
+<figure  style="display: block; margin: auto; width: 50%">
+    <img src="ressources/tsunami.gif" alt="tsunami"/>
+</figure>
+
+<p  class="fragment" data-fragment-index="1" style="text-align:center;font-style:bold"> OU </p>
+
+<figure class="fragment" data-fragment-index="1" style="display: block; margin: auto; width: 50%">
+    <img src="ressources/cash.gif" alt="cash"/>
+</figure>
+
+<!-- .element class="fragment" data-fragment-index="2" -->
+**Consentium R3 CEV**
+Les banques arriveront t-elles à canaliser cette technologie qui, par nature, les rends obsolêtes ?
+
+
+
+
+## Et plus encore
+
+<!-- .element class="fragment" data-fragment-index="1" -->
+**Notaires** :actes de proprièté, cadastre (ghana, honduras)...
+
+</br>
+<!-- .element class="fragment" data-fragment-index="2" -->
+**Etat** : Système de vote, diplômes...
+
+</br>
+<!-- .element class="fragment" data-fragment-index="3" -->
+**Uberisation de l'uberisation** : remplacement d'uber, de airbnb 
+
+</br>
+<figure class="fragment" data-fragment-index="4"  style="display: block; margin: auto; width: 30%">
+    <img src="ressources/revolution.jpeg" alt="revolution"/>
+</figure>
+
+
+<div class="fragment" data-fragment-index="4" style="background-color: #EEEEEE; color: red; padding: 5px 20px; text-align:center">
+    La Blockchain donnerait le pouvoir et le contrôle au peuple au lieu de le concentrer dans les mains des grands acteurs, états ou multinationales. 
 </div>
