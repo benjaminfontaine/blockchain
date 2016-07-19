@@ -4,58 +4,98 @@
 
 
 
-## Bitcoin et blockchain
+## Le bitcoin, la première monnaie virtuelle ...
 
-La blockchain est la technologie sous-jacente à la crypto-monnaie Bitcoin.
+
+<figure style="width: 100%">
+    <img src="ressources/bitcoin.png" alt="fluctuation" style="margin: auto;"/>
+</figure>
+</br>
+</br>
 
 <!-- .element class="fragment" data-fragment-index="1" -->
-Le Bitcoin a mauvaise réputation :
+- Créée en 2009 par Satoshi Nakamoto
 
-<figure class="fragment" data-fragment-index="1" style="display: block; float: left; margin: 30px 0; width: 50%">
+</br>
+<!-- .element class="fragment" data-fragment-index="2" -->
+- Virtuelle
+</br>
+</br>
+
+<!-- .element class="fragment" data-fragment-index="3" -->
+- Mais avec une vraie valeur marchande car accepté chez de nombreux commerçants et tradée
+
+
+
+## à la réputation sulfureuse...
+
+
+<figure  style="display: block; float: left; margin: 30px 0; width: 50%">
     <img src="ressources/fluctuation.jpeg" alt="fluctuation" style="margin: auto;"/>
 </figure>
 
-<figure class="fragment" data-fragment-index="2"  style="display: block; float: left; margin: 30px 0; width: 50%">
+<figure class="fragment" data-fragment-index="1"  style="display: block; float: left; margin: 30px 0; width: 50%">
     <img src="ressources/blackmail.png" alt="chantage" style="margin: auto;"/>
 </figure>
 
-<figure class="fragment" data-fragment-index="3"  style="display: block; float: left; margin: 30px 0; width: 50%">
+<div style="clear:both;"></div>
+
+<figure class="fragment" data-fragment-index="2"  style="display: block; float: left; margin: 30px 0; width: 50%">
     <img src="ressources/drogue.jpg" alt="drogue" style="margin: auto;"/>
 </figure>
 
-<figure class="fragment" data-fragment-index="4"  style="display: block; float: left; margin: 30px 0; width: 50%">
+<figure class="fragment" data-fragment-index="3"  style="display: block; float: left; margin: 30px 0; width: 50%">
     <img src="ressources/hitmen.jpg" alt="hitmen" style="margin: auto;"/>
 </figure>
 
 
 
+## ... mais qui a des nombreuses qualités
 
-## Les problèmatiques solutionnées par la blockchain
+<figure style="display: block; margin: auto; width: 15%">
+    <img src="ressources/first-place.png" alt="firstplace"/>
+</figure>
 
+<figure style="display: block; margin: auto; width: 15%">
+    <img src="ressources/safe.jpg" alt="safe"/>
+</figure>
+
+<figure class="fragment" data-fragment-index="1"  style="display: block; margin: auto; width: 30%">
+    <img src="ressources/success-kid.jpg" alt="not-bitcoin"/>
+</figure>
+
+
+
+## La blockchain
+
+La blockchain est la technologie sous-jacente à la crypto-monnaie Bitcoin.
 <figure class="fragment" data-fragment-index="1"  style="display: block; margin: auto; width: 30%">
     <img src="ressources/not_bitcoin.jpeg" alt="not-bitcoin"/>
 </figure>
 
 <!-- .element class="fragment" data-fragment-index="2" -->
+C'est une base de donnée distribuées.
+
+<!-- .element class="fragment" data-fragment-index="3" -->
 Ce système vise à répondre aux problèmatiques suivantes du bitcoin :
 
 
-<!-- .element class="fragment" data-fragment-index="2" -->
+<!-- .element class="fragment" data-fragment-index="3" -->
 - Désintermédiation : Échange des informations directement entre utilisateurs 
 
-<!-- .element class="fragment" data-fragment-index="3" -->
+<!-- .element class="fragment" data-fragment-index="4" -->
 ** => Echange peer-to-peer**
 
-<!-- .element class="fragment" data-fragment-index="2" -->
+<!-- .element class="fragment" data-fragment-index="3" -->
 - Traçabilité : Empêcher que l'on donne deux fois le même bitcoin
 
-<!-- .element class="fragment" data-fragment-index="4" -->
+<!-- .element class="fragment" data-fragment-index="5" -->
 ** => Garde les traces de transaction dans un registre**
 
-<!-- .element class="fragment" data-fragment-index="2" -->
+<!-- .element class="fragment" data-fragment-index="3" -->
 - Consensus distribué : Garantir la monnaie sans autorité centralisée
 
-<!-- .element class="fragment" data-fragment-index="5" -->
+<!-- .element class="fragment" data-fragment-index="6" -->
 ** => les utilisateurs conservent ce registre et vérifient les transactions**
 
 
@@ -68,143 +108,3 @@ Ce système vise à répondre aux problèmatiques suivantes du bitcoin :
 - infalsifiable...
 - et qui contient un historique fiable des transactions effectuées depuis le lancement du système.
 
-
-
-## Quelques définitions
-
-</br>
-*Registre (ledger)* : chaîne de blocks partagés par tous les noeuds
-
-
-</br>
-</br>
-*Block* : unité de base de la blockchain, contient plusieurs transactions
-
-</br>
-</br>
-*Transaction* :
-
-- addresse expéditeur et destinataire
-- data
-- règles optionnelles d'execution
-- champs technique
-- crypto-signature
-
-
-
-## Structure de la blockchain
-
-<figure>
-    <img src="ressources/blockchain-structure.png" alt="structure" style="width: 100%"/>
-</figure>
-
-
-<!-- .element class="fragment" data-fragment-index="1" -->
-Chaque block se connecte avec le précedent en intégrant le hash du block précédent dans le calcul de son hash.
-
-
-<!-- .element class="fragment" data-fragment-index="2" -->
-**=>Très difficile de modifier un bloc surtout s'il est ancien**
-
-
-
-## Ordonnancement des transactions
-
-<!-- .element class="fragment" data-fragment-index="1" -->
-- Les mineurs choissisent une ou plusieurs transactions en attente 
-et essayent de placer un block contenant ces transactions.
-
-<!-- .element class="fragment" data-fragment-index="2" -->
-- Chaque block est identifié par son hash.
-Pour placer un block, les mineurs doivent calculer ce hash.
-
-</br>
-<!-- .element class="fragment" data-fragment-index="3" -->
-**Proof of work** : le hash généré par les mineurs doit correspondre à certain critères définis par le protocole
-Les mineurs utilisent une donnée d'ajustement (nonce) pour essayer de générer un hash correct.
-
-<!-- .element class="fragment" data-fragment-index="3" -->
-Très dur de déterminer un hash : il faut des années de calcul à un ordinateur standard. 
-
-
-
-## En quoi est-ce révolutionnaire ?
-
-</br>
-
-<div class="fragment" data-fragment-index="1" style="background-color: #EEEEEE; color: red; padding: 5px 20px; text-align:center">
-  "La chaîne de blocs permet aux gens qui ne se font pas confiance de collaborer 
-  sans avoir à passer par une autorité centrale neutre. Autrement dit, c’est une machine à créer de la confiance."
-</div>
- 
-</br>
-</br>
-
-<div class="fragment" data-fragment-index="2" style="background-color: #EEEEEE; color: red; padding: 5px 20px; text-align:center">
-  "La chaîne de blocs est un registre public de confiance, que tout le monde peut partager et inspecter, mais qu’aucun utilisateur unique ne contrôle."
-</div>
-
-</br>
-</br>
-
-<div class="fragment" data-fragment-index="3" style="background-color: #EEEEEE; color: red; padding: 5px 20px; text-align:center">
-  "L’expansion des chaînes de blocs est redoutable pour “le marché de la confiance”, qui comprend les institutions et bureaucraties centralisées comme les banques, les chambres de compensation et les autorités gouvernementales"
-</div>
-
-
-# Pourquoi c'est révolutionnaire ?
-
-<!-- .slide: class="page-title" -->
-
-
-
-## Tiers de confiance décentralisé
-
-
-
-## Des changements sur un large spectre
-
-
-
-
-## Les banques
-
-<figure  style="display: block; margin: auto; width: 50%">
-    <img src="ressources/tsunami.gif" alt="tsunami"/>
-</figure>
-
-<p  class="fragment" data-fragment-index="1" style="text-align:center;font-style:bold"> OU </p>
-
-<figure class="fragment" data-fragment-index="1" style="display: block; margin: auto; width: 50%">
-    <img src="ressources/cash.gif" alt="cash"/>
-</figure>
-
-<!-- .element class="fragment" data-fragment-index="2" -->
-**Consentium R3 CEV**
-Les banques arriveront t-elles à canaliser cette technologie qui, par nature, les rends obsolêtes ?
-
-
-
-
-## Et plus encore
-
-<!-- .element class="fragment" data-fragment-index="1" -->
-**Notaires** :actes de proprièté, cadastre (ghana, honduras)...
-
-</br>
-<!-- .element class="fragment" data-fragment-index="2" -->
-**Etat** : Système de vote, diplômes...
-
-</br>
-<!-- .element class="fragment" data-fragment-index="3" -->
-**Uberisation de l'uberisation** : remplacement d'uber, de airbnb 
-
-</br>
-<figure class="fragment" data-fragment-index="4"  style="display: block; margin: auto; width: 30%">
-    <img src="ressources/revolution.jpeg" alt="revolution"/>
-</figure>
-
-
-<div class="fragment" data-fragment-index="4" style="background-color: #EEEEEE; color: red; padding: 5px 20px; text-align:center">
-    La Blockchain donnerait le pouvoir et le contrôle au peuple au lieu de le concentrer dans les mains des grands acteurs, états ou multinationales. 
-</div>

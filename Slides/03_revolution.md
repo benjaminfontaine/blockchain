@@ -141,14 +141,29 @@ Le tiers de confiance peut être une banque, un état, un notaire, un partenaire
 
 
 
-##Une révolution potentielle
+##Une révolution potentielle...
 </br>
 </br>
-<figure class="fragment" data-fragment-index="4"  style="display: block; margin: auto; width: 100%">
+<figure class="fragment" data-fragment-index="1"  style="display: block; margin: auto; width: 100%">
     <img src="ressources/revolution.jpeg" width="600px" alt="revolution"/>
 </figure>
 
 </br>
-<div class="fragment" data-fragment-index="4" style="background-color: #EEEEEE; color: red; padding: 5px 20px; text-align:center">
+<div class="fragment" data-fragment-index="2" style="background-color: #EEEEEE; color: red; padding: 5px 20px; text-align:center">
     La Blockchain a le potentiel de rendre le pouvoir et le contrôle au peuple au lieu de le concentrer dans les mains des grands acteurs, états ou multinationales. 
+</div>
+
+
+
+##... mais probablement canalisée
+</br>
+</br>
+<figure style="display: block; margin: auto; width: 100%">
+    <img src="ressources/revolution-apres.png" width="600px" alt="revolution"/>
+</figure>
+
+</br>
+
+<div class="fragment" data-fragment-index="1" style="background-color: #EEEEEE; color: red; padding: 5px 20px; text-align:center">
+    Mais beaucoup des grands acteurs suscités sont déjà dans la course pour inciter à un peu plus de pudeur et de modération.
 </div>

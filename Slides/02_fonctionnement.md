@@ -161,6 +161,14 @@ SHA256('Ceci est un message que je vais hasher.')
 
 
 
+## Les mineurs
+
+<figure>
+    <img src="ressources/zoolander-mineur.jpg" alt="mineur" style="width: 90%"/>
+</figure>
+
+
+
 ## Déroulement d'une transaction
 
 <figure class="transaction-cadre">

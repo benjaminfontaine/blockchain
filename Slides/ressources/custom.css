@@ -2,3 +2,30 @@
 	color: blue;
 }
 
+.blockquote {
+    background-color:lightgrey;
+    padding:5px 5px 5px 20px;
+    margin-bottom:5px;
+}
+
+.transaction-cadre {
+    position:relative;
+    overflow:hidden;
+    height:100%;
+    width:100%;
+    max-heigth:100% !important;
+    max-width:100% !important;
+}
+
+.transaction-img-1 {
+    width: 100%
+}
+
+.transaction-img-2 {
+    width:100%;
+    max-heigth:100% !important;
+    max-width:100% !important;
+    height:100%;
+    position:relative;
+    top:-128px;
+}

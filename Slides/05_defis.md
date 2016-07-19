@@ -4,54 +4,75 @@
 
 
 
-## Les limitations
+## Des défis à relever
 
-- **Sécurisation** : en 2014, des pirates ont réussi à détourner 750 000 bitcoin sur la plateforme MtGit. 
-En 2015, 19 000 sont volés sur une palteforme Slovene Bitstamp.
-- **Lenteur de validation des transactions** : des pics d'enregistrement de transaction de plus de 4 heures
-- **Pb de gouvernance** :  MTGit, sur la Blockchain personne ne peut vous empêcher de faire une bonne action, mais lorsque quelqu’un vous nuit, personne ne peut venir vous aider non plus.
-- **Scalabilité** : 7 transactions/secondes 
+<!-- .element class="fragment" data-fragment-index="1" -->
+- **Sécurisation des clés privées** : en 2014, des pirates ont réussi à détourner 750 000 bitcoin sur la plateforme MtGit. 
+En 2015, 19 000 sont volés sur une palteforme Slovene Bitstamp,
+
+<!-- .element class="fragment" data-fragment-index="2" -->
+- **Lenteur de validation des transactions** : des pics d'enregistrement de transaction de plus de 4 heures,
+
+<!-- .element class="fragment" data-fragment-index="3" -->
+- **Pb de gouvernance** :  sur la Blockchain, lorsque quelqu’un vous nuit, pas de SAV,
+
+<!-- .element class="fragment" data-fragment-index="4" -->
+- **Scalabilité** : 7 transactions/secondes, 
+
+<!-- .element class="fragment" data-fragment-index="5" -->
 - **Pas écolo** : le minage ça consomme !
+
+<!-- .element class="fragment" data-fragment-index="6" -->
 - **La confiance**
 
 
 
+## Attaque de type Goldfinger
 
-<!-- .slide: class="page-questions" -->
+</br>
+</br>
 
+<!-- .element class="fragment" data-fragment-index="1" -->
+Pour contrôler et décrédibiliser la blockchain (refuser ou corrompre des transactions), 
+il faudrait qu'un attaquant réunisse, pendant un temps conséquent, 51% de la puissance de minage de tout le réseau.
+</br>
+</br>
+</br>
+</br>
 
+<!-- .element class="fragment" data-fragment-index="2" -->
+Il a été estimé que le coût d’une telle attaque serait actuellement de l’ordre de 400 millions de dollars.
+</br>
+</br>
+</br>
+</br>
 
-## Références
-
-<!-- .element: class="blue" -->
-**Général** :
-
-https://www.youtube.com/watch?v=Lx9zgZCMqXE
-http://www.lesechos.fr/finance-marches/banque-assurances/021747580941-goldman-sachs-veut-une-blockchain-sans-bitcoin-1205563.php?vjhxckBb9jUcxDDt.99
-http://blockchainfrance.net/2016/01/24/la-finance-et-les-banques-uberisees-par-la-blockchain/
-https://www.letemps.ch/economie/2016/02/15/monnaies-virtuelles-ether-s-impose-aux-cotes-bitcoin
-http://blog.octo.com/gouvernance-le-talon-dachille-de-la-blockchain/
-http://www.multichain.com/blog/2015/11/avoiding-pointless-blockchain-project/
-http://fr.slideshare.net/IosifItkin/extent2015-blockchain-new-frontiers
-
-
-<!-- .element: class="blue" -->
-**Crypto-monnaies**
-
-https://en.wikipedia.org/wiki/Cryptocurrency
-
-
-<!-- .element: class="blue" -->
-**Application blockchain**
-
-http://www.larevuedudigital.com/2016/01/26/la-blockchain-uberisation-des-notaires-en-commencant-par-les-pays-emergents/
-http://blockchainfrance.net/2015/10/01/lemonde-blockchain-uberisation/
-http://www.investopedia.com/articles/investing/042015/bitcoin-20-applications.asp
-http://www.usine-digitale.fr/editorial/intel-et-ibm-s-interessent-de-pres-a-la-blockchain-la-technologie-sur-laquelle-est-base-le-bitcoin.N320654
+<!-- .element class="fragment" data-fragment-index="3" -->
+Ce qui est énorme, mais qui est une dépense qu’un état ou un milliardaire pourrait se permettre. 
+</br></br>
 
 
-<!-- .element: class="blue" -->
-**Hyperledger**
-http://thenextweb.com/apps/2016/02/16/ibm-has-just-open-sourced-44000-lines-of-blockchain-code-on-github/
 
+## En conclusion
+
+<!-- .element class="fragment" data-fragment-index="1" -->
+Un potentiel et des champs d'applications énormes
+
+<!-- .element class="fragment" data-fragment-index="2" -->
+Une technologie où tout reste à créer.
+
+<!-- .element class="fragment" data-fragment-index="3" -->
+Où pas mal de problèmes restent à résoudre voire ne se sont même pas encore présentés.
+
+<!-- .element class="fragment" data-fragment-index="4" -->
+Avec les incertitudes et risques que ça engendre.
+
+</br>
+
+<p class="fragment" data-fragment-index="5" style="font-weight:bold;text-align:center;"> Mais moi, je me lance...</p>
+
+
+<figure class="fragment" data-fragment-index="5"  style="display: block; margin: auto;">
+    <img src="ressources/knoxville.jpg" width="450px" alt="knoxville"/>
+</figure>
 
